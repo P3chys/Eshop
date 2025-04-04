@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple E-Shop</title>
+    <title>Carrot Corner - Your One-Stop Carrot Shop</title>
     <style>
         * {
             margin: 0;
@@ -159,14 +159,13 @@
 </head>
 <body>
     <header>
-        <h1>Simple E-Shop</h1>
+        <h1>Carrot Corner</h1>
     </header>
     
     <nav>
         <a href="#" class="home-link">Home</a>
-        <a href="#">Products</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#" class="about-link">About</a>
+        <a href="#" class="contact-link">Contact</a>
         <a href="#" class="cart-link">Cart <span class="cart-icon">🛒<span class="cart-count">0</span></span></a>
     </nav>
     
@@ -177,46 +176,107 @@
                 <div class="product">
                     <img src="https://www.hhs1.com/hubfs/carrots%20on%20wood-1.jpg" alt="Product 1">
                     <div class="product-info">
-                        <h3 class="product-title">Product 1</h3>
-                        <p>This is a description of product 1. It's really amazing!</p>
-                        <p class="price">$19.99</p>
-                        <button class="btn add-to-cart" data-id="1" data-name="Product 1" data-price="19.99">Add to Cart</button>
+                        <h3 class="product-title">Organic Carrots</h3>
+                        <p>Fresh locally grown organic carrots. Perfect for salads and cooking!</p>
+                        <p class="price">$3.99</p>
+                        <button class="btn add-to-cart" data-id="1" data-name="Organic Carrots" data-price="3.99">Add to Cart</button>
                     </div>
                 </div>
                 
                 <div class="product">
                     <img src="https://www.hhs1.com/hubfs/carrots%20on%20wood-1.jpg" alt="Product 2">
                     <div class="product-info">
-                        <h3 class="product-title">Product 2</h3>
-                        <p>This is a description of product 2. You won't believe it!</p>
-                        <p class="price">$29.99</p>
-                        <button class="btn add-to-cart" data-id="2" data-name="Product 2" data-price="29.99">Add to Cart</button>
+                        <h3 class="product-title">Carrot Juice</h3>
+                        <p>Freshly squeezed 100% carrot juice. No preservatives added!</p>
+                        <p class="price">$5.99</p>
+                        <button class="btn add-to-cart" data-id="2" data-name="Carrot Juice" data-price="5.99">Add to Cart</button>
                     </div>
                 </div>
                 
                 <div class="product">
                     <img src="https://www.hhs1.com/hubfs/carrots%20on%20wood-1.jpg" alt="Product 3">
                     <div class="product-info">
-                        <h3 class="product-title">Product 3</h3>
-                        <p>This is a description of product 3. It's the best!</p>
-                        <p class="price">$39.99</p>
-                        <button class="btn add-to-cart" data-id="3" data-name="Product 3" data-price="39.99">Add to Cart</button>
+                        <h3 class="product-title">Carrot Cake</h3>
+                        <p>Homemade carrot cake with cream cheese frosting. Delicious!</p>
+                        <p class="price">$12.99</p>
+                        <button class="btn add-to-cart" data-id="3" data-name="Carrot Cake" data-price="12.99">Add to Cart</button>
                     </div>
                 </div>
                 
                 <div class="product">
                     <img src="https://www.hhs1.com/hubfs/carrots%20on%20wood-1.jpg" alt="Product 4">
                     <div class="product-info">
-                        <h3 class="product-title">Product 4</h3>
-                        <p>This is a description of product 4. You need this!</p>
-                        <p class="price">$49.99</p>
-                        <button class="btn add-to-cart" data-id="4" data-name="Product 4" data-price="49.99">Add to Cart</button>
+                        <h3 class="product-title">Carrot Seeds</h3>
+                        <p>Premium carrot seeds for your garden. Easy to grow!</p>
+                        <p class="price">$2.49</p>
+                        <button class="btn add-to-cart" data-id="4" data-name="Carrot Seeds" data-price="2.49">Add to Cart</button>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="cart-page">
+        <div class="about-page" style="display:none;">
+            <h2>About Us</h2>
+            <div style="background-color: white; padding: 20px; border-radius: 5px; margin-top: 20px;">
+                <h3>Our Story</h3>
+                <p>Welcome to Carrot Corner, your one-stop shop for all things carrot!</p>
+                <p>Founded in 2020, our mission is to provide the highest quality carrot products to our customers. We work with local farmers to ensure that all our carrots are grown organically and harvested at peak freshness.</p>
+                <p>What started as a small family business has grown into one of the region's most trusted sources for carrot-based products. We're proud to offer a wide variety of items, from fresh carrots to delicious carrot-based treats.</p>
+                
+                <h3>Our Commitment</h3>
+                <p>At Carrot Corner, we are committed to:</p>
+                <ul style="margin-left: 20px; margin-bottom: 20px;">
+                    <li>Sustainable farming practices</li>
+                    <li>Supporting local agriculture</li>
+                    <li>Providing fresh, quality products</li>
+                    <li>Excellent customer service</li>
+                </ul>
+                
+                <h3>Why Choose Us?</h3>
+                <p>We believe that what sets us apart is our dedication to quality and service. Each product we sell meets our strict standards for excellence, and we stand behind everything we offer.</p>
+                <p>Thank you for visiting our store. We hope you enjoy our products as much as we enjoy bringing them to you!</p>
+            </div>
+        </div>
+        
+        <div class="contact-page" style="display:none;">
+            <h2>Contact Us</h2>
+            <div style="background-color: white; padding: 20px; border-radius: 5px; margin-top: 20px;">
+                <h3>Get in Touch</h3>
+                <p>We'd love to hear from you! If you have any questions, comments, or concerns, please don't hesitate to reach out.</p>
+                
+                <div style="margin-top: 20px;">
+                    <h4>Contact Information</h4>
+                    <p><strong>Email:</strong> info@carrotcorner.com</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Address:</strong> 123 Veggie Lane, Farmville, CA 90210</p>
+                    <p><strong>Hours:</strong> Monday - Friday: 9am - 5pm, Saturday: 10am - 4pm, Sunday: Closed</p>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <h4>Send Us a Message</h4>
+                    <form id="contact-form" style="display: flex; flex-direction: column;">
+                        <div style="margin-bottom: 15px;">
+                            <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+                            <input type="text" id="name" name="name" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+                            <input type="email" id="email" name="email" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
+                            <textarea id="message" name="message" rows="5" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn" style="align-self: flex-start;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-page" style="display:none;">
             <h2>Your Cart</h2>
             <div class="cart-items">
                 <!-- Cart items will be added here dynamically -->
@@ -229,7 +289,7 @@
     </div>
     
     <footer>
-        <p>&copy; 2025 Simple E-Shop. Created for educational purposes.</p>
+        <p>&copy; 2025 Carrot Corner. Created for educational purposes.</p>
     </footer>
     
     <script>
@@ -257,19 +317,49 @@
         });
         
         // Switch between home page and cart page
-        document.querySelector('.cart-link').addEventListener('click', function(e) {
-            e.preventDefault();
+        // Navigation functions
+        function showPage(pageName) {
+            // Hide all pages
             document.querySelector('.home-page').style.display = 'none';
-            document.querySelector('.cart-page').style.display = 'block';
+            document.querySelector('.about-page').style.display = 'none';
+            document.querySelector('.contact-page').style.display = 'none';
+            document.querySelector('.cart-page').style.display = 'none';
             
-            // Render cart items
-            renderCart();
-        });
+            // Show the selected page
+            document.querySelector('.' + pageName + '-page').style.display = 'block';
+            
+            // If cart page, render cart items
+            if (pageName === 'cart') {
+                renderCart();
+            }
+        }
         
+        // Add event listeners to navigation links
         document.querySelector('.home-link').addEventListener('click', function(e) {
             e.preventDefault();
-            document.querySelector('.home-page').style.display = 'block';
-            document.querySelector('.cart-page').style.display = 'none';
+            showPage('home');
+        });
+        
+        document.querySelector('.about-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            showPage('about');
+        });
+        
+        document.querySelector('.contact-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            showPage('contact');
+        });
+        
+        document.querySelector('.cart-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            showPage('cart');
+        });
+        
+        // Handle contact form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thanks for your message! This is a demo site for educational purposes, so no message was actually sent.');
+            this.reset();
         });
         
         // Checkout button
@@ -283,8 +373,7 @@
             cart = [];
             cartCount = 0;
             document.querySelector('.cart-count').textContent = cartCount;
-            document.querySelector('.home-page').style.display = 'block';
-            document.querySelector('.cart-page').style.display = 'none';
+            showPage('home');
         });
         
         // Render cart items
